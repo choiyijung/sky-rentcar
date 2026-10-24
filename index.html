@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="canonical" href="https://nh-sunloan-rentcar.netlify.app/">
+<title>하늘 | 신차 장기렌트·자동차리스 월 이용료 비교와 맞춤견적 안내</title>
+  <meta name="description" content="하늘에서 국산차·수입차의 신차 장기렌트와 자동차리스 조건을 비교해보세요. 계약기간, 초기비용, 연간 주행거리, 만기 방식에 따른 월 이용료를 살펴보고 원하는 차종의 맞춤견적 상담을 확인할 수 있습니다.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="하늘 | 신차 장기렌트·자동차리스 월 이용료 비교와 맞춤견적 안내">
+  <meta property="og:description" content="하늘에서 국산차·수입차의 신차 장기렌트와 자동차리스 조건을 비교해보세요. 계약기간, 초기비용, 연간 주행거리, 만기 방식에 따른 월 이용료를 살펴보고 원하는 차종의 맞춤견적 상담을 확인할 수 있습니다.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0d5fe9">
+  <link rel="stylesheet" href="./styles.css">
+<!-- NAVER REPRESENTATIVE IMAGES V1 -->
+<meta property="og:image" content="https://nh-sunloan-rentcar.netlify.app/assets/naver-price-comparison.png">
+<meta property="og:image" content="https://nh-sunloan-rentcar.netlify.app/assets/naver-rent-benefits.png">
+<meta property="og:image" content="https://nh-sunloan-rentcar.netlify.app/assets/naver-rent-guide.png">
+<meta property="og:image" content="https://nh-sunloan-rentcar.netlify.app/assets/naver-car-quote.png">
+<meta property="og:image" content="https://nh-sunloan-rentcar.netlify.app/assets/naver-free-quote.png">
+<!-- /NAVER REPRESENTATIVE IMAGES V1 -->
+  <meta name="naver-site-verification" content="ae8619d00250a38d20504120253410a644f7b711" />
+</head>
+<body>
+  <header class="site-header">
+<div class="container nav-wrap">
+      <a class="logo" href="#top" aria-label="하늘 홈">
+        <span class="logo-mark">OK</span>
+        <span>하늘</span>
+      </a>
+      <nav class="desktop-nav" aria-label="주요 메뉴">
+        <a href="#compare">가격비교</a>
+        <a href="#benefits">특가혜택</a>
+        <a href="#process">이용절차</a>
+        <a href="#reviews">이용후기</a>
+        <a href="#guide">렌트·리스 안내</a>
+      </nav>
+      <a class="nav-cta" href="#quote">무료견적 신청</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">내 조건에 맞춰 찾는 신차 렌트·리스</span>
+          <h1>신차 장기렌트·리스, 내 조건에 맞는 월 이용료부터 비교해보세요</h1>
+          <p>희망 차량과 계약기간, 초기비용 범위를 정하면 장기렌트와 자동차리스 조건을 한눈에 비교할 수 있습니다.</p>
+
+          <div class="hero-points">
+            <div><b>01</b><span>원하는 신차 선택</span></div>
+            <div><b>02</b><span>계약 조건 맞춤 확인</span></div>
+            <div><b>03</b><span>무료 견적 상담</span></div>
+          </div>
+
+          <div class="trust-row">
+            <span>✓ 국산·수입차 상담</span>
+            <span>✓ 초기비용 조건 선택</span>
+            <span>✓ 개인·사업자 이용 가능</span>
+          </div>
+        </div>
+
+        <div class="quote-card" id="quote">
+          <div class="quote-head">
+            <span class="badge">무료</span>
+            <div>
+              <h2>차량과 이용조건을 선택하면 견적 비교가 시작됩니다</h2>
+              <p>원하는 차종과 이용방식을 알려주시면 필요한 계약 조건을 기준으로 맞춤 견적 상담을 진행할 수 있습니다.</p>
+            </div>
+          </div>
+
+          <form id="quoteForm">
+            <div class="field-group">
+              <label>이용 방식</label>
+              <div class="segmented" data-name="type">
+                <button type="button" class="active" data-value="장기렌트">장기렌트</button>
+                <button type="button" data-value="자동차리스">자동차리스</button>
+              </div>
+              <input type="hidden" name="type" value="장기렌트">
+            </div>
+
+            <div class="field-group">
+              <label>이용 기간</label>
+              <div class="segmented months" data-name="months">
+                <button type="button" data-value="36개월">36개월</button>
+                <button type="button" class="active" data-value="48개월">48개월</button>
+                <button type="button" data-value="60개월">60개월</button>
+                <button type="button" data-value="60개월 이상">60개월+</button>
+              </div>
+              <input type="hidden" name="months" value="48개월">
+            </div>
+
+            <label class="input-label">희망 차량
+              <input name="car" type="text" placeholder="예: 그랜저, 쏘렌토, 카니발">
+            </label>
+
+            <div class="two-col">
+              <label class="input-label">고객명
+                <input name="name" type="text" placeholder="이름">
+              </label>
+              <label class="input-label">휴대폰번호
+                <input name="phone" type="tel" placeholder="010-0000-0000">
+              </label>
+            </div>
+
+            
+
+            <div class="privacy-consent">
+  <label>
+    <input type="checkbox" name="privacy_agree" required checked>
+    <span>
+      개인정보 수집 및 이용에 동의합니다. <strong>(필수)</strong>
+      <a href="./privacy.html" target="_blank" rel="noopener">내용보기</a>
+    </span>
+  </label>
+</div>
+<button class="submit-btn" type="submit">무료 견적 비교 신청하기</button>
+            <p class="form-note">※ 견적 신청 시 입력한 차량과 이용조건을 기준으로 상담 내용이 확인됩니다.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div><strong>렌트</strong><span>초기 비용 부담을 낮춘 이용 방식</span></div>
+        <div><strong>리스</strong><span>차량 운용 목적에 맞춘 선택지</span></div>
+        <div><strong>비교</strong><span>조건을 함께 보고 선택</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="compare">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">COMPARE</span>
+          <h2>국산차부터 수입차까지 월 이용조건을 한눈에 비교하세요</h2>
+          <p>월 납입금뿐 아니라 계약기간, 초기비용, 약정 주행거리, 계약 종료 조건까지 함께 살펴보면 실제 이용 부담을 비교하기 쉽습니다.</p>
+        </div>
+
+        <div class="comparison-card">
+          <div class="comparison-top">
+            <div>
+              <span class="live-dot"></span>
+              <b>견적 비교 예시</b>
+            </div>
+            <small>금액은 디자인용 예시이며 실제 견적과 다를 수 있습니다.</small>
+          </div>
+
+          <div class="comparison-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>희망차량</th>
+                  <th>A 조건</th>
+                  <th>B 조건</th>
+                  <th>C 조건</th>
+                  <th>추천 포인트</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><b>그랜저</b><span>가솔린 2.5</span></td>
+                  <td>월 68만원대</td>
+                  <td class="best">월 63만원대<em>추천</em></td>
+                  <td>월 71만원대</td>
+                  <td>월 납입금 중심</td>
+                </tr>
+                <tr>
+                  <td><b>쏘렌토</b><span>하이브리드</span></td>
+                  <td class="best">월 59만원대<em>추천</em></td>
+                  <td>월 62만원대</td>
+                  <td>월 66만원대</td>
+                  <td>균형형 조건</td>
+                </tr>
+                <tr>
+                  <td><b>카니발</b><span>9인승</span></td>
+                  <td>월 69만원대</td>
+                  <td>월 65만원대</td>
+                  <td class="best">월 61만원대<em>추천</em></td>
+                  <td>사업자 상담</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <a class="center-btn" href="#quote">내 조건으로 견적 받아보기</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="guide">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">GUIDE</span>
+          <h2>장기렌트와 자동차리스, 계약 방식별 차이를 확인하세요</h2>
+        </div>
+
+        <div class="guide-grid">
+          <a href="#quote">
+            <span>FOR BUSINESS</span>
+            <h3>법인 차량 상담</h3>
+            <p>업무용 차량을 준비한다면 운용 목적과 사용기간에 맞는 계약 방식을 먼저 비교해보세요.</p>
+            <b>맞춤 상담 →</b>
+          </a>
+          <a href="#quote">
+            <span>FOR OWNER</span>
+            <h3>개인사업자 상담</h3>
+            <p>개인사업자와 법인은 차량 이용기간과 운용 목적에 따라 필요한 계약 항목을 확인할 수 있습니다.</p>
+            <b>조건 상담 →</b>
+          </a>
+          <a href="#quote">
+            <span>RENT OR LEASE</span>
+            <h3>장기렌트 vs 리스</h3>
+            <p>보험 적용, 번호판, 비용 처리, 만기 선택 등 렌트와 리스의 주요 차이를 비교해보세요.</p>
+            <b>차이 확인 →</b>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section soft" id="benefits">
+      <div class="container">
+        <div class="section-title left">
+          <span class="eyebrow">SPECIAL BENEFIT</span>
+          <h2>계약기간·주행거리·초기비용을 먼저 체크하세요</h2>
+        </div>
+
+        <div class="benefit-grid">
+          <article>
+            <span class="num">01</span>
+            <div class="icon-box">₩</div>
+            <h3>월 이용조건 꼼꼼히 확인</h3>
+            <p>차량과 계약기간, 초기비용 설정을 바꿔보며 달라지는 월 이용료와 주요 계약 조건을 살펴볼 수 있습니다.</p>
+          </article>
+          <article>
+            <span class="num">02</span>
+            <div class="icon-box">↗</div>
+            <h3>희망 차량 출고조건 확인</h3>
+            <p>희망 차종과 트림을 기준으로 차량 준비 상황과 예상 출고 시기를 함께 확인할 수 있습니다.</p>
+          </article>
+          <article>
+            <span class="num">03</span>
+            <div class="icon-box">✓</div>
+            <h3>이용 형태에 맞는 계약 찾기</h3>
+            <p>개인·사업자·법인 등 이용 형태에 따라 확인해야 할 계약 조건을 구분해 살펴볼 수 있습니다.</p>
+          </article>
+          <article>
+            <span class="num">04</span>
+            <div class="icon-box">24</div>
+            <h3>맞춤 신차견적 간편 신청</h3>
+            <p>희망 차량과 예상 이용기간을 남기면 세부 견적 조건을 확인할 수 있는 상담으로 이어집니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="vehicle-section" id="vehicles">
+  <div class="container">
+
+    <div class="vehicle-head">
+      <span class="eyebrow">POPULAR VEHICLES</span>
+      <h2>관심 차종의 예상 월 이용료를 빠르게 살펴보세요</h2>
+      <p>국산 세단부터 SUV, 하이브리드, 수입차까지 원하는 차량을 선택하고 계약기간과 초기비용에 따른 월 조건을 비교해보세요.</p>
+    </div>
+
+    <div class="vehicle-brand-grid">
+
+      <article class="vehicle-brand-card">
+        <h3>현대 <span>HYUNDAI</span></h3>
+
+        <div class="vehicle-model-list">
+          <a href="./cars/casper/">캐스퍼</a>
+          <a href="./cars/avante/">아반떼</a>
+          <a href="./cars/sonata/">쏘나타</a>
+          <a href="./cars/grandeur/">그랜저</a>
+          <a href="./cars/kona/">코나</a>
+          <a href="./cars/tucson/">투싼</a>
+          <a href="./cars/santafe/">싼타페</a>
+          <a href="./cars/palisade/">팰리세이드</a>
+          <a href="./cars/staria/">스타리아</a>
+          <a href="./cars/ioniq5/">아이오닉5</a>
+          <a href="./cars/ioniq6/">아이오닉6</a>
+          <a href="./cars/ioniq9/">아이오닉9</a>
+        
+          <a href="./cars/g70/">G70</a>
+          <a href="./cars/g80/">G80</a>
+          <a href="./cars/g90/">G90</a>
+          <a href="./cars/gv60/">GV60</a>
+          <a href="./cars/gv70/">GV70</a>
+          <a href="./cars/gv80/">GV80</a></div>
+      </article>
+
+      <article class="vehicle-brand-card">
+        <h3>기아 <span>KIA</span></h3>
+
+        <div class="vehicle-model-list">
+          <a href="./cars/morning/">모닝</a>
+          <a href="./cars/ray/">레이</a>
+          <a href="./cars/k5/">K5</a>
+          <a href="./cars/k8/">K8</a>
+          <a href="./cars/seltos/">셀토스</a>
+          <a href="./cars/niro/">니로</a>
+          <a href="./cars/sportage/">스포티지</a>
+          <a href="./cars/sorento/">쏘렌토</a>
+          <a href="./cars/carnival/">카니발</a>
+          <a href="./cars/ev3/">EV3</a>
+          <a href="./cars/ev4/">EV4</a>
+          <a href="./cars/ev5/">EV5</a>
+          <a href="./cars/ev6/">EV6</a>
+          <a href="./cars/ev9/">EV9</a>
+        </div>
+      </article>
+
+      <article class="vehicle-brand-card">
+        <h3>르노코리아 <span>RENAULT</span></h3>
+
+        <div class="vehicle-model-list">
+          <a href="./cars/grand-koleos/">그랑 콜레오스</a>
+          <a href="./cars/arkana/">아르카나</a>
+          <a href="./cars/qm6/">QM6</a>
+          <a href="./cars/filante/">필랑트</a>
+          <a href="./cars/scenic-e-tech/">세닉 E-Tech</a>
+        </div>
+      </article>
+
+      <article class="vehicle-brand-card">
+        <h3>KG모빌리티 <span>KGM</span></h3>
+
+        <div class="vehicle-model-list">
+          <a href="./cars/torres/">토레스</a>
+          <a href="./cars/actyon/">액티언</a>
+          <a href="./cars/rexton/">렉스턴</a>
+          <a href="./cars/musso-sports/">무쏘 스포츠</a>
+          <a href="./cars/musso-khan/">무쏘 칸</a>
+          <a href="./cars/torres-evx/">토레스 EVX</a>
+          <a href="./cars/korando/">코란도</a>
+        </div>
+      </article>
+
+      <article class="vehicle-brand-card">
+        <h3>수입차 <span>IMPORT</span></h3>
+
+        <div class="vehicle-model-list">
+          <a href="./cars/benz-e-class/">벤츠 E클래스</a>
+          <a href="./cars/benz-glc/">벤츠 GLC</a>
+          <a href="./cars/bmw-5-series/">BMW 5시리즈</a>
+          <a href="./cars/bmw-x3/">BMW X3</a>
+          <a href="./cars/audi-a6/">아우디 A6</a>
+          <a href="./cars/volvo-xc60/">볼보 XC60</a>
+          <a href="./cars/lexus-es/">렉서스 ES</a>
+          <a href="./cars/tesla-model-3/">테슬라 모델3</a>
+          <a href="./cars/tesla-model-y/">테슬라 모델Y</a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="vehicle-more">
+      <a href="#quote">원하는 차량 희망 차량 정보 입력</a>
+    </div>
+
+  </div>
+</section>
+<section class="section" id="process">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">HOW TO USE</span>
+          <h2>견적 요청부터 차량 인도까지 네 단계로 진행됩니다</h2>
+          <p>차량 선택에서 견적 확인, 계약 조건 검토, 차량 인도까지 전체 진행 순서를 단계별로 확인할 수 있습니다.</p>
+        </div>
+
+        <div class="process-grid">
+          <article><span>01</span><h3>희망 차량 정보 입력</h3><p>희망 차종과 이용방식, 예상 계약기간 등 견적에 필요한 기본 조건을 입력합니다.</p></article>
+          <article><span>02</span><h3>맞춤 이용료 안내</h3><p>입력한 내용을 기준으로 예상 월 이용료와 초기비용 조합을 확인합니다.</p></article>
+          <article><span>03</span><h3>계약 항목 확인</h3><p>보증금·선납금, 약정거리, 만기 처리 방식 등 계약의 핵심 항목을 비교합니다.</p></article>
+          <article><span>04</span><h3>계약 진행 및 차량 인도</h3><p>최종 조건을 확인한 뒤 계약과 차량 인도 절차를 순서대로 진행합니다.</p></article>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="review-section" id="reviews">
+  <div class="container">
+
+    <div class="review-head">
+      <div>
+        <span class="eyebrow">REVIEWS</span>
+        <h2>차종별 상담 사례와 선택 조건을 확인하세요</h2>
+        <p>차량별 이용 목적과 계약조건이 어떻게 달라질 수 있는지 사례를 통해 살펴보세요.</p>
+      </div>
+
+      <a class="review-all-btn" href="./reviews/index.html">전체보기 83건 →</a>
+    </div>
+
+    <div class="review-grid-new">
+
+      <article class="review-card-new">
+        <div class="review-car-image review-car-1"></div>
+        <div class="review-card-body">
+          <div class="review-stars-new">★★★★★</div>
+          <h3>현대 그랜저</h3>
+          <p>
+            출퇴근용 차량을 알아보면서 그랜저 조건을 비교했습니다.
+            계약기간과 초기비용에 따라 월 이용금액이 달라지는 부분을
+            한 번에 확인할 수 있어 선택하기 편했습니다.
+          </p>
+          <div class="review-bottom">
+            <span>김** 고객</span>
+            <span>장기렌트</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="review-card-new">
+        <div class="review-car-image review-car-2"></div>
+        <div class="review-card-body">
+          <div class="review-stars-new">★★★★★</div>
+          <h3>기아 쏘렌토 하이브리드</h3>
+          <p>
+            가족용 SUV를 찾다가 쏘렌토 하이브리드로 상담했습니다.
+            보증금과 이용기간을 바꿔가며 조건을 비교해보니
+            어떤 방식이 부담이 적은지 판단하기 쉬웠습니다.
+          </p>
+          <div class="review-bottom">
+            <span>이** 고객</span>
+            <span>장기렌트</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="review-card-new">
+        <div class="review-car-image review-car-3"></div>
+        <div class="review-card-body">
+          <div class="review-stars-new">★★★★★</div>
+          <h3>기아 카니발</h3>
+          <p>
+            업무와 가족용으로 함께 사용할 차량이 필요해 카니발을
+            알아봤습니다. 계약기간과 주행거리 조건까지 같이 비교해서
+            원하는 조건으로 정리할 수 있었습니다.
+          </p>
+          <div class="review-bottom">
+            <span>박** 고객</span>
+            <span>자동차리스</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<!-- NEWCAR FAQ V1 -->
+<section class="section newcar-faq" id="faq">
+  <div class="container">
+    <div class="section-title">
+      <span class="eyebrow">RENT & LEASE FAQ</span>
+      <h2>렌트·리스 계약 전에 자주 묻는 내용을 확인하세요</h2>
+      <p>장기렌트와 자동차리스를 비교할 때 많이 확인하는 계약기간, 초기비용, 주행거리와 만기 조건을 정리했습니다.</p>
+    </div>
+
+    <div class="newcar-faq-list">
+      <details>
+        <summary>장기렌트와 자동차리스는 무엇이 다른가요?</summary>
+        <p>장기렌트와 자동차리스는 비용 구성과 차량 운용 방식이 서로 다릅니다. 이용기간과 차량 목적, 운전자 조건을 함께 비교해 자신에게 맞는 계약 방식을 선택하는 것이 좋습니다.</p>
+      </details>
+
+      <details>
+        <summary>초기비용은 원하는 방식으로 설정할 수 있나요?</summary>
+        <p>보증금과 선납금의 적용 여부에 따라 초기 부담과 월 이용료가 달라질 수 있습니다. 원하는 초기비용 범위를 정해 여러 조건으로 비교해보는 것이 좋습니다.</p>
+      </details>
+
+      <details>
+        <summary>이용기간은 어떤 기준으로 정하면 되나요?</summary>
+        <p>예상 이용기간과 월 예산을 기준으로 계약기간을 선택할 수 있습니다. 기간에 따라 월 비용과 만기 조건이 달라지므로 계약 전 함께 확인하는 것이 좋습니다.</p>
+      </details>
+
+      <details>
+        <summary>약정 주행거리는 어떻게 정하면 되나요?</summary>
+        <p>평소 이동거리와 차량 사용 빈도를 기준으로 연간 주행거리를 예상해보세요. 약정거리를 넘었을 때 적용되는 조건도 계약 전에 확인하는 것이 좋습니다.</p>
+      </details>
+
+      <details>
+        <summary>무료 견적 상담만 받아도 되나요?</summary>
+        <p>견적 신청은 희망 차량과 예상 이용조건을 확인하는 상담 단계입니다. 제시된 조건을 충분히 살펴본 뒤 계약 진행 여부를 결정할 수 있습니다.</p>
+      </details>
+    </div>
+  </div>
+</section>
+<!-- /NEWCAR FAQ V1 -->
+<section class="final-cta">
+      <div class="container final-inner final-inner-regions">
+        <div class="final-copy">
+          <span>NEW CAR RENT COMPARE</span>
+          <h2>원하는 차량과 이용계획을 남기면 맞춤 상담을 받을 수 있습니다</h2>
+        </div>
+
+        <div class="bottom-regions">
+          <strong>지역별 신차 렌트·리스 견적 안내</strong>
+          <div class="bottom-region-grid">
+            <a href="./seoul/index.html">서울 견적안내</a>
+            <a href="./busan/index.html">부산 견적안내</a>
+            <a href="./daegu/index.html">대구 견적안내</a>
+            <a href="./incheon/index.html">인천 견적안내</a>
+            <a href="./gwangju/index.html">광주 견적안내</a>
+            <a href="./daejeon/index.html">대전 견적안내</a>
+            <a href="./ulsan/index.html">울산 견적안내</a>
+            <a href="./sejong/index.html">세종 견적안내</a>
+            <a href="./gyeonggi/index.html">경기 견적안내</a>
+            <a href="./gangwon/index.html">강원 견적안내</a>
+            <a href="./chungbuk/index.html">충북 견적안내</a>
+            <a href="./chungnam/index.html">충남 견적안내</a>
+            <a href="./jeonbuk/index.html">전북 견적안내</a>
+            <a href="./jeonnam/index.html">전남 견적안내</a>
+            <a href="./gyeongbuk/index.html">경북 견적안내</a>
+            <a href="./gyeongnam/index.html">경남 견적안내</a>
+            <a href="./jeju/index.html">제주 견적안내</a>
+          </div>
+        </div>
+
+        <a class="final-main-btn" href="#quote">무료 희망 차량 정보 입력하기</a>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="local-pin-map" id="coverage-map">
+  <div class="container">
+
+    <div class="local-map-frame">
+
+      <iframe
+        src="https://www.google.com/maps?q=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD&z=7&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="전국 장기렌트 상담 지역 지도">
+      </iframe>
+
+    </div>
+
+    <div class="local-map-note">
+
+      <strong>
+        전국 상담 가능 지역
+      </strong>
+
+      <p>
+        전국 신차 장기렌트·자동차리스 맞춤견적 상담
+      </p>
+
+      <span>
+        실제 견적 조건은 차량, 계약기간, 주행거리,
+        심사 계약 항목 확인 후 안내됩니다.
+      </span>
+
+    </div>
+
+  </div>
+</section>
+<footer>
+    <div class="container footer-grid">
+      <div>
+        <a class="logo footer-logo" href="#top">
+          <span class="logo-mark">OK</span>
+          <span>하늘</span>
+        </a>
+        <p>하늘은 신차 장기렌트와 자동차리스의 이용조건을 비교하고 견적 상담을 연결하는 차량 정보 사이트입니다.</p>
+      </div>
+      <div>
+        <b>고객지원</b>
+        <a href="#quote">무료 견적신청</a>
+        <a href="./privacy.html">개인정보 처리방침</a>
+        <a href="./terms.html">이용약관</a>
+      </div>
+      <div>
+        <b>사업자 정보</b>
+        <p>상호 : 주식회사 에이치아이행복지킴이</p>
+        <p>대표자 : 최이정</p>
+        <p>대표전화 : 010-2144-2950</p>
+        <p>사업자번호 : 803-81-00107</p>
+        <p>통신판매업신고번호 : 2021-서울영등포-0841</p>
+        <p>주소 : 서울특별시 양천구 신월로 170 3층 304-27호</p>
+        <p>정보관리책임자 : 민해선 010-2144-2950</p>
+        <p>등록번호 : 10-00037525</p>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 하늘. All rights reserved.</div>
+</footer>
+
+  <div class="floating-quote-buttons" aria-label="빠른 견적 메뉴">
+    <button type="button" class="floating-quote-btn floating-phone"
+      onclick="document.getElementById('callPlaceholder')?.click();">
+      <span class="floating-icon">☎</span>
+      <span>전화견적</span>
+    </button>
+
+    <a class="floating-quote-btn floating-free" href="#quote">
+      <span class="floating-icon">🚗</span>
+      <span>무료견적</span>
+    </a>
+  </div>
+  <div class="desktop-bottom-quote-bar" aria-label="빠른 견적 상담">
+    <div class="desktop-bottom-quote-inner">
+      <div class="desktop-bottom-copy">
+        <strong>신차 견적, 조건부터 비교하세요</strong>
+        <span>차종과 이용기간을 선택하고 장기렌트·리스 조건을 간편하게 확인하세요.</span>
+      </div>
+
+      <button type="button" class="desktop-bottom-phone"
+        onclick="document.getElementById('callPlaceholder')?.click();">
+        ☎ 전화견적
+      </button>
+
+      <a class="desktop-bottom-free" href="#quote">
+        무료희망 차량 정보 입력
+      </a>
+    </div>
+  </div>
+  <div class="mobile-bar">
+    <button type="button" id="callPlaceholder">빠른 상담</button>
+    <a href="#quote">무료견적 신청</a>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
