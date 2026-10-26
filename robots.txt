@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nh-sunloan-rentcar.netlify.app/sitemap.xml
+Sitemap: https://sky-rentcar.netlify.app/sitemap.xml
